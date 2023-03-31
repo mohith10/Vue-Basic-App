@@ -1,6 +1,9 @@
 const app = Vue.createApp({
-	data: function(){
-		courseGoal: 'Lets finish Vue'
-	}
+  data() {
+    return {
+      counter: 0,
+    };
+  },
 });
-app.mount('#user-goal')
+
+app.mount('#events');
